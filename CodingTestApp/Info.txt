@@ -1,0 +1,17 @@
+#The coding test application is developed on Asp.net core web application
+--------------------------------------------------------------------------------
+
+Few Nuget packages needs to be installed(For unit testing)
+ 1. Microsoft.Net.Test.Sdk
+ 2. XUnit
+ 3. Xunit.runner.VisualStudio
+
+ First Clone the proj from Github( Url is shared)
+ For testing the applcation swagger ui is used.
+ Give the commands as 
+
+ For running the project - dotnet run
+ for testing the project - dotnet test
+
+ After giving the command dotnet run a page in browser will be opened  - http://localhost:[portnumber]/
+ then kindly provide the swagger ui url - http://localhost:[portnumber]/swagger/index.html

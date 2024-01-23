@@ -17,3 +17,6 @@ Few Nuget packages needs to be installed(For unit testing)
  then kindly provide the swagger ui url - http://localhost:[portnumber]/swagger/index.html
  Clickon try it out button and give the inputs in the textbox and click on Execte button.
  Response will be shown below.
+
+ PleaseNote : In the testclass.cs file we have test cases and I have run all the test cases mentioned in the question.
+ same can be tested by giving the command - dotnet test

@@ -15,3 +15,5 @@ Few Nuget packages needs to be installed(For unit testing)
 
  After giving the command dotnet run a page in browser will be opened  - http://localhost:[portnumber]/
  then kindly provide the swagger ui url - http://localhost:[portnumber]/swagger/index.html
+ Clickon try it out button and give the inputs in the textbox and click on Execte button.
+ Response will be shown below.

@@ -11,7 +11,6 @@ public static class FindSeq
             int[] array = Array.ConvertAll(iparray, int.Parse);
             outputArray = FindLongestIncSequence(array);
         }
-        Console.Write(outputArray);
         return outputArray;
     }
     private static string FindLongestIncSequence(int[] array)

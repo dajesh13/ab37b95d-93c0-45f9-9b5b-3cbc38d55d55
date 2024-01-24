@@ -1,5 +1,6 @@
 #The coding test application is developed on Asp.net core web Api
 --------------------------------------------------------------------------------
+This application is used to find the longest increasing subsequence that takes one string input of any number of integers separated by single whitespace.
 
 Few Nuget packages needs to be installed(For unit testing)
  1. Microsoft.Net.Test.Sdk

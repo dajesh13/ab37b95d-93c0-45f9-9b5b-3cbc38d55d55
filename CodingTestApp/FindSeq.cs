@@ -1,4 +1,6 @@
-﻿namespace CodingTestApp;
+﻿using System.Text.RegularExpressions;
+
+namespace CodingTestApp;
 
 public static class FindSeq
 {
@@ -8,8 +10,13 @@ public static class FindSeq
         if (inputString != null)
         {
             var iparray = inputString.Split(' ');
-            int[] array = Array.ConvertAll(iparray, int.Parse);
-            outputArray = FindLongestIncSequence(array);
+            if (iparray.All(x=> Regex.IsMatch(x, @"^[0-9]*$")))
+            {
+                int[] array = Array.ConvertAll(iparray, int.Parse);
+                outputArray = FindLongestIncSequence(array);
+            }
+            else
+            return "Please enter digits only!";
         }
         return outputArray;
     }
